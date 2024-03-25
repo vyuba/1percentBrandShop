@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*vanilla css styling*/
+
+#video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+button {
+  /* color: #FAFAFA; */
+  text-transform: uppercase;
+  padding: 10px 20px;
+  /* border-radius: 10px; */
+  /* border: 2px solid #313030; */
+  background: #252525;
+  box-shadow: 2px 2px #313030;
+  cursor: pointer;
+  margin: 14px 0;
+}
+
+button:active {
+  box-shadow: none;
+  transform: translate(3px, 3px);
+}
+
+.heroImage{
+  display: grid;
+  grid-template-columns: 201px 129px;
+  /* grid-template-rows: 140px 76px; */
+  gap: 10px;
+}
+.grid2{
+  grid-row:1/ span 2;
+}
