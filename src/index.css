@@ -13,6 +13,7 @@
   object-fit: cover;
 }
 
+
 .content {
   position: absolute;
   top: 50%;
@@ -22,7 +23,7 @@
   color: #fff;
 }
 
-button {
+.button {
   /* color: #FAFAFA; */
   text-transform: uppercase;
   padding: 10px 20px;
@@ -34,7 +35,7 @@ button {
   margin: 14px 0;
 }
 
-button:active {
+.button:active {
   box-shadow: none;
   transform: translate(3px, 3px);
 }
@@ -47,4 +48,8 @@ button:active {
 }
 .grid2{
   grid-row:1/ span 2;
+}
+
+#footer{
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
 }

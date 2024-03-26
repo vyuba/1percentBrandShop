@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar"
 // import heroImage2 from "/public/about_blank _ core lookbook.jpeg"
 import Card from "../components/Card"
 import FooterCard from "./Footer"
+import VideoEffect from "../components/VideoEffect"
 function Home() {
   return (
     <div>
@@ -16,10 +17,14 @@ function Home() {
         <div>
             <Card/>
         </div>
-        <div className="w-full grid place-items-center mb-[95px]">
+        <div className="w-full grid place-items-center mb-28">
+        <VideoEffect/>
+        </div>
+
+        <div className="w-full grid place-items-center mb-[75px]">
             <p className="text-2xl font-Truculenta font-semibold pb-4">Newsletter</p>
             <div className=" bg-red-600 w-full py-[44px] grid place-items-center">
-                <input className="w-9/12 outline-none placeholder:text-black placeholder:font-medium py-3 px-1" type="text" placeholder="Email:" />
+                <input className="w-9/12 font-Truculenta outline-none placeholder:text-black placeholder:font-medium py-3 px-1" type="text" placeholder="Email:" />
             </div>
         </div>
         <div
